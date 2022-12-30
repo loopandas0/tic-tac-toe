@@ -164,5 +164,6 @@ int main(void) {
         checkBoard(X);
     }
 
+    free(board);
     return 0;
 }
